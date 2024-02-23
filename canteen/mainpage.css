@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    background-image: url("https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food-1536x1024.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_container{
+    width: 43vw;
+    height: 43vh;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    padding: 15px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+button{
+    padding: 13px;
+    border-radius: 10px;
+    width: 140px;
+    background-color: rgb(58, 227, 58);
+    color: white;
+    font-size: 20px;
+    border-width: 0px;
+    margin-top: 30px;
+    margin-right: 15PX;
+    font-family: 'Courier New', Courier, monospace;
+}
+button:hover{
+    background-color: darkgrey;
+}
